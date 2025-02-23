@@ -1,0 +1,33 @@
+# 디폴트 무시된 파일
+/shelf/
+/workspace.xml
+
+*.py[cod]
+*$py.class
+
+# log
+*.log
+*.log.*
+
+# idea
+.idea/
+
+# local db
+_local_db
+
+# node_modules
+node_modules/
+
+
+# Environments
+.env
+.python-version
+
+# netrc
+.netrc
+
+dump.rdb
+
+.DS_Store
+
+__pycache__/
