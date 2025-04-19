@@ -16,22 +16,15 @@ app_test_automation
 
 ## 📂 디렉토리 구조
 automation/
+
 ├── config/                  # 설정 파일 디렉토리
-
 │   └── google_sheet.py      # Google Sheets API 연동
-
 ├── src/                     # 소스 코드
-
 │   ├── home.py              # 홈 화면 관련 자동화 로직
-
 ├── json/                    # 테스트 케이스 JSON 파일
-
 │   └── home_section.json    # 홈섹션 JSON 파일
-
 ├── tests/                   # 테스트 스크립트
-
 │   ├── test_search.py       # 검색 테스트 케이스
-
 └── conftest.py              # Pytest/Appium 설정 및 공통 픽스처
 
 ## 🛠️ 사용 기술 스택
